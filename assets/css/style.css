@@ -20,12 +20,13 @@ body {
     margin: 10px 0;
     padding: 20px 0px;
     text-decoration: underline;
+    letter-spacing: 2px;
 }
 
 /* --------- Font awesome buttons */
 
 .game-buttons-container {
-    font-size: 32px;
+    font-size: 2rem;
     margin: 10px 0;
     display: inline-block;
     text-align: center;
@@ -50,3 +51,28 @@ body {
 #play-pause:hover {
     transform: scale(1.2);
 }
+
+/* --------- Main game area */
+
+.cards-container {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.player-card, .computer-card {
+    height: 500px;
+    width: 350px;
+    background: #11013e;
+    border-radius: 50px;
+}
+
+#compare-button {
+    height: 20px;
+    width: 120px;
+}
+
+/* --------- Score Area */

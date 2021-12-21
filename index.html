@@ -9,7 +9,7 @@
     <!--Google font and font awesome scripts-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Footballers Top Trumps</title>
@@ -24,31 +24,27 @@
         <i class="fas fa-question" id="how-to-play"></i>
         <i class="fas fa-volume-mute" id="play-pause" onclick="playPause()"></i>
     </div>
-    
+
     <!--Main game-->
-        <div class="cards-container">
-            <div class="card-header">
-                <h2>Your Card</h2>
-                <h2>Computer's Card</h2>
-            </div>
-            <div class="player-card">
-                
-            </div>
-
-            <div class="computer-card">
-                
-            </div>
-
-            <input id="compare-button" type="submit" value="Compare Cards">
+    <div class="cards-container">
+        <div class="player-card">
+            <h3>Your Card</h3>
         </div>
-    <!--Score area-->       
-            <div class="score-area">
-                <p><span id="score">8</span> cards left</p>
-                <p><span id="score">0</span> cards in middle</p>
-                <p><span id="score">8</span> cards left</p>
-            </div>
 
-        
+        <div class="computer-card">
+            <h3>Computer's Card</h3>
+        </div>
+
+    </div>
+    <!--Score area-->
+    <div class="score-area">
+        <input id="compare-button" type="submit" value="Compare Cards">
+        <p><span id="score">8</span> cards left</p>
+        <p><span id="score">0</span> cards in middle</p>
+        <p><span id="score">8</span> cards left</p>
+    </div>
+
+
 
     <script src="assets/js/script.js"></script>
 </body>
