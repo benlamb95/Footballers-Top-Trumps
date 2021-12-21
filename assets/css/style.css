@@ -8,14 +8,45 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #fafafa;
     text-align: center;
-    background: #089D3B;
+    background: rgb(151, 230, 19);
+    background: linear-gradient(90deg, rgba(151, 230, 19, 1) 0%, rgba(8, 157, 59, 1) 100%, rgba(0, 255, 166, 1) 100%);
 }
 
 /* --------- Heading */
 
 .heading {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    margin: 10px 0;
     padding: 20px 0px;
     text-decoration: underline;
+}
+
+/* --------- Font awesome buttons */
+
+.game-buttons-container {
+    font-size: 32px;
+    margin: 10px 0;
+    display: inline-block;
+    text-align: center;
+    height: 3rem;
+    width: 100%;
+}
+
+#restart,
+#how-to-play,
+#play-pause {
+    padding-left: 20px;
+}
+
+#restart:hover {
+    transform: scale(1.2);
+}
+
+#how-to-play:hover {
+    transform: scale(1.2);
+}
+
+#play-pause:hover {
+    transform: scale(1.2);
 }
