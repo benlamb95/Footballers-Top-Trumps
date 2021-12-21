@@ -65,9 +65,14 @@ body {
 
 .yourCard, .compCard {
     height: 500px;
-    width: 350px;
+    width: 400px;
     background: #11013e;
     border-radius: 50px;
+}
+
+.footballer-image {
+    height: 240px;
+    width: 350px;
 }
 
 /* --------- Score Area */
