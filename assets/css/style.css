@@ -70,9 +70,25 @@ body {
     border-radius: 50px;
 }
 
+.yourCard > p, .compCard > p {
+    padding: 5px 0;
+}
+
+.cardContent > h2 {
+    padding-bottom: 10px;
+    color: #ffdd77;
+}
+
+.cardContent > h3 {
+    margin-left: 50px;
+    padding: 10px;
+    text-align: left;
+}
+
 .footballer-image {
     height: 240px;
     width: 350px;
+    padding-bottom: 5px;
 }
 
 /* --------- Score Area */
