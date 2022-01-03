@@ -1,0 +1,138 @@
+class Deck {
+    constructor(footballers){
+        this.footballers = footballers
+    }
+}
+
+
+let footballers = [
+    {
+        image: 'c-ronaldo.jpg',
+        name: 'Cristiano Ronaldo',
+        Attacking: '98',
+        Midfield: '85',
+        Defence: '10',
+        Goalkeeping: '0',
+    },
+    {
+        image: 'l-messi.jpg',
+        name: 'Lionel Messi',
+        Attacking: '99',
+        Midfield: '84',
+        Defence: '10',
+        Goalkeeping: '0',
+    },
+    {
+        image: 'neymar.jpg',
+        name: 'Neymar',
+        Attacking: '96',
+        Midfield: '80',
+        Defence: '0',
+        Goalkeeping: '0',
+    },
+    {
+        image: 'mbappe.jpg',
+        name: 'Kylian Mbappe',
+        Attacking: '95',
+        Midfield: '74',
+        Defence: '10',
+        Goalkeeping: '0',
+    },
+    {
+        image: 'ngolo-kante.jpg',
+        name: 'Ngolo Kante',
+        Attacking: '50',
+        Midfield: '97',
+        Defence: '80',
+        Goalkeeping: '0',
+    },
+    {
+        image: 'k-de-bruyne.jpg',
+        name: 'Kevin De Bruyne',
+        Attacking: '84',
+        Midfield: '98',
+        Defence: '40',
+        Goalkeeping: '0',
+    },
+    {
+        image: 'bruno-fernandes.jpg',
+        name: 'Bruno Fernandes',
+        Attacking: '86',
+        Midfield: '95',
+        Defence: '40',
+        Goalkeeping: '0',
+    },
+    {
+        image: 'j-kimmich.jpg',
+        name: 'Joshua Kimmich',
+        Attacking: '50',
+        Midfield: '90',
+        Defence: '90',
+        Goalkeeping: '0',
+    },
+    {
+        image: 'van-dijk.jpg',
+        name: 'Virgil Van Dijk',
+        Attacking: '40',
+        Midfield: '50',
+        Defence: '99',
+        Goalkeeping: '0',
+    },
+    {
+        image: 'dias.jpg',
+        name: 'Ruben Dias',
+        Attacking: '40',
+        Midfield: '45',
+        Defence: '97',
+        Goalkeeping: '0',
+    },
+    {
+        image: 'tent-alexander-arnold.jpg',
+        name: 'Trent Alexander-Arnold',
+        Attacking: '70',
+        Midfield: '80',
+        Defence: '85',
+        Goalkeeping: '0',
+    },
+    {
+        image: 'alphonso-davies.jpg',
+        name: 'Alphonso Davies',
+        Attacking: '69',
+        Midfield: '79',
+        Defence: '89',
+        Goalkeeping: '0',
+    },
+    {
+        image: 'gianluigi-donnarumma.jpg',
+        name: 'Gianluigi Donnarumma',
+        Attacking: '5',
+        Midfield: '15',
+        Defence: '40',
+        Goalkeeping: '98',
+    },
+    {
+        image: 'ederson.jpg',
+        name: 'Ederson',
+        Attacking: '20',
+        Midfield: '35',
+        Defence: '40',
+        Goalkeeping: '95',
+    },
+    {
+        image: 'neuer.jpg',
+        name: 'Manuel Neuer',
+        Attacking: '10',
+        Midfield: '40',
+        Defence: '40',
+        Goalkeeping: '96',
+    },
+    {
+        image: 'jan-oblak.jpg',
+        name: 'Jan Oblak',
+        Attacking: '5',
+        Midfield: '20',
+        Defence: '40',
+        Goalkeeping: '97',
+    },
+    
+]
