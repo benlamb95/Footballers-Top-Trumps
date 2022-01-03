@@ -7,7 +7,7 @@ class Deck {
 
 let footballers = [
     {
-        image: 'c-ronaldo.jpg',
+        image: 'assets/images/c-ronaldo.jpg',
         name: 'Cristiano Ronaldo',
         Attacking: '98',
         Midfield: '85',
@@ -15,7 +15,7 @@ let footballers = [
         Goalkeeping: '0',
     },
     {
-        image: 'l-messi.jpg',
+        image: 'assets/images/l-messi.jpg',
         name: 'Lionel Messi',
         Attacking: '99',
         Midfield: '84',
@@ -23,7 +23,7 @@ let footballers = [
         Goalkeeping: '0',
     },
     {
-        image: 'neymar.jpg',
+        image: 'assets/images/neymar.jpg',
         name: 'Neymar',
         Attacking: '96',
         Midfield: '80',
@@ -31,7 +31,7 @@ let footballers = [
         Goalkeeping: '0',
     },
     {
-        image: 'mbappe.jpg',
+        image: 'assets/images/mbappe.jpg',
         name: 'Kylian Mbappe',
         Attacking: '95',
         Midfield: '74',
@@ -39,7 +39,7 @@ let footballers = [
         Goalkeeping: '0',
     },
     {
-        image: 'ngolo-kante.jpg',
+        image: 'assets/images/ngolo-kante.jpg',
         name: 'Ngolo Kante',
         Attacking: '50',
         Midfield: '97',
@@ -47,7 +47,7 @@ let footballers = [
         Goalkeeping: '0',
     },
     {
-        image: 'k-de-bruyne.jpg',
+        image: 'assets/images/k-de-bruyne.jpg',
         name: 'Kevin De Bruyne',
         Attacking: '84',
         Midfield: '98',
@@ -55,7 +55,7 @@ let footballers = [
         Goalkeeping: '0',
     },
     {
-        image: 'bruno-fernandes.jpg',
+        image: 'assets/images/bruno-fernandes.jpg',
         name: 'Bruno Fernandes',
         Attacking: '86',
         Midfield: '95',
@@ -63,7 +63,7 @@ let footballers = [
         Goalkeeping: '0',
     },
     {
-        image: 'j-kimmich.jpg',
+        image: 'assets/images/j-kimmich.jpg',
         name: 'Joshua Kimmich',
         Attacking: '50',
         Midfield: '90',
@@ -71,7 +71,7 @@ let footballers = [
         Goalkeeping: '0',
     },
     {
-        image: 'van-dijk.jpg',
+        image: 'assets/images/van-dijk.jpg',
         name: 'Virgil Van Dijk',
         Attacking: '40',
         Midfield: '50',
@@ -79,7 +79,7 @@ let footballers = [
         Goalkeeping: '0',
     },
     {
-        image: 'dias.jpg',
+        image: 'assets/images/dias.jpg',
         name: 'Ruben Dias',
         Attacking: '40',
         Midfield: '45',
@@ -87,7 +87,7 @@ let footballers = [
         Goalkeeping: '0',
     },
     {
-        image: 'tent-alexander-arnold.jpg',
+        image: 'assets/images/tent-alexander-arnold.jpg',
         name: 'Trent Alexander-Arnold',
         Attacking: '70',
         Midfield: '80',
@@ -95,7 +95,7 @@ let footballers = [
         Goalkeeping: '0',
     },
     {
-        image: 'alphonso-davies.jpg',
+        image: 'assets/images/alphonso-davies.jpg',
         name: 'Alphonso Davies',
         Attacking: '69',
         Midfield: '79',
@@ -103,7 +103,7 @@ let footballers = [
         Goalkeeping: '0',
     },
     {
-        image: 'gianluigi-donnarumma.jpg',
+        image: 'assets/images/gianluigi-donnarumma.jpg',
         name: 'Gianluigi Donnarumma',
         Attacking: '5',
         Midfield: '15',
@@ -111,7 +111,7 @@ let footballers = [
         Goalkeeping: '98',
     },
     {
-        image: 'ederson.jpg',
+        image: 'assets/images/ederson.jpg',
         name: 'Ederson',
         Attacking: '20',
         Midfield: '35',
@@ -119,7 +119,7 @@ let footballers = [
         Goalkeeping: '95',
     },
     {
-        image: 'neuer.jpg',
+        image: 'assets/images/neuer.jpg',
         name: 'Manuel Neuer',
         Attacking: '10',
         Midfield: '40',
@@ -127,7 +127,7 @@ let footballers = [
         Goalkeeping: '96',
     },
     {
-        image: 'jan-oblak.jpg',
+        image: 'assets/images/jan-oblak.jpg',
         name: 'Jan Oblak',
         Attacking: '5',
         Midfield: '20',
