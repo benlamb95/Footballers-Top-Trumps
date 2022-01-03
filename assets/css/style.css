@@ -77,12 +77,20 @@ body {
 
 .modal-header {
     color: black;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .close {
     float: right;
+    font-size: 28px;
+    margin-right: 30px;
     text-decoration: none;
+    font-weight: bold;
+    border: none;
+}
+
+.close:hover {
+    color: red;
 }
 
 /* --------- Main game area */
