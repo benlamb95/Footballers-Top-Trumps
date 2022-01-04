@@ -22,7 +22,7 @@
     <div class="game-buttons-container">
         <i class="fas fa-undo" id="restart" onclick="restartGame()" aria-label="Restart Button"></i>
         <i class="fas fa-question" id="how-to-play" aria-label="How to play Button"></i>
-        <i class="fas fa-volume-mute" id="play-pause" onclick="playPause()" aria-label="Sound Button"></i>
+        <i class="fas fa-volume-mute" id="play-pause" onclick="playPause()" aria-label="Sound Button" type="audio"></i>
     </div>
 
     <!--Main game-->
@@ -30,7 +30,8 @@
         <div class="yourCard">
             <p>Your Card</p>
             <div class="cardContent">
-                <img id="yourCard-Image" class="footballer-image" src="/assets/images/annon-player.jpg" alt="Football Player">
+                <img id="yourCard-Image" class="footballer-image" src="/assets/images/annon-player.jpg"
+                    alt="Football Player">
                 <h2 id="yourCard-Name">????</h2>
                 <h3>Attacking</h3><button id="yourCard1" class="cardBtn">??</button>
                 <h3>Midfield</h3><button id="yourCard2" class="cardBtn">??</button>
@@ -42,7 +43,8 @@
         <div class="compCard">
             <p>Computer's Card</p>
             <div class="cardContent">
-                <img id="compCard-Image" class="footballer-image" src="/assets/images/annon-player.jpg" alt="Football Player">
+                <img id="compCard-Image" class="footballer-image" src="/assets/images/annon-player.jpg"
+                    alt="Football Player">
                 <h2 id="compCard-Name">????</h2>
                 <h3>Attacking</h3><button id="compCard1" class="cardBtn2">??</button>
                 <h3>Midfield</h3><button id="compCard2" class="cardBtn2">??</button>
@@ -70,14 +72,17 @@
                 <h2 class="modal-title">How do I play?</h2>
             </div>
             <div class="modal-body">
-                <p><i class="far fa-futbol"></i> Both you and the computer start with an 8 card deck with random football players within them.
+                <p><i class="far fa-futbol"></i> Both you and the computer start with an 8 card deck with random
+                    football players within them.
                 </p>
                 <br>
-                <p><i class="far fa-futbol"></i> You must then select a statistic from either; Attacking, Midfield, Defending and Goalkeeping
+                <p><i class="far fa-futbol"></i> You must then select a statistic from either; Attacking, Midfield,
+                    Defending and Goalkeeping
                     which
                     you think will have the higher amount than the computers card.</p>
                 <br>
-                <p><i class="far fa-futbol"></i> If your chosen stat is higher you will win the computers card, however if you dont the computer
+                <p><i class="far fa-futbol"></i> If your chosen stat is higher you will win the computers card, however
+                    if you dont the computer
                     will take yours.</p>
                 <br>
                 <p><i class="far fa-futbol"></i> The winner will be the player with all 16 cards!</p>
@@ -86,8 +91,16 @@
             </div>
         </div>
     </div>
-
-    <script src="assets/js/script.js" type="module"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <script src="assets/script/script.js"></script>
 </body>
 
 </html>
