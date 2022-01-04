@@ -30,24 +30,24 @@
         <div class="yourCard">
             <p>Your Card</p>
             <div class="cardContent">
-                <img class="footballer-image" src="/assets/images/annon-player.jpg" alt="Football Player">
-                <h2>????</h2>
-                <h3>Attacking</h3>
-                <h3>Midfield</h3>
-                <h3>Defending</h3>
-                <h3>Goalkeeping</h3>
+                <img id="yourCard-Image" class="footballer-image" src="/assets/images/annon-player.jpg" alt="Football Player">
+                <h2 id="yourCard-Name">????</h2>
+                <h3>Attacking</h3><button id="yourCard1" class="cardBtn">??</button>
+                <h3>Midfield</h3><button id="yourCard2" class="cardBtn">??</button>
+                <h3>Defending</h3><button id="yourCard3" class="cardBtn">??</button>
+                <h3>Goalkeeping</h3><button id="yourCard4" class="cardBtn">??</button>
             </div>
         </div>
 
         <div class="compCard">
             <p>Computer's Card</p>
             <div class="cardContent">
-                <img class="footballer-image" src="/assets/images/annon-player.jpg" alt="Football Player">
-                <h2>????</h2>
-                <h3>Attacking</h3>
-                <h3>Midfield</h3>
-                <h3>Defending</h3>
-                <h3>Goalkeeping</h3>
+                <img id="compCard-Image" class="footballer-image" src="/assets/images/annon-player.jpg" alt="Football Player">
+                <h2 id="compCard-Name">????</h2>
+                <h3>Attacking</h3><button id="compCard1" class="cardBtn2">??</button>
+                <h3>Midfield</h3><button id="compCard2" class="cardBtn2">??</button>
+                <h3>Defending</h3><button id="compCard3" class="cardBtn2">??</button>
+                <h3>Goalkeeping</h3><button id="compCard4" class="cardBtn2">??</button>
             </div>
         </div>
 
@@ -55,9 +55,9 @@
     <!--Score area-->
     <div class="score-area">
         <input id="compare-button" type="submit" value="Compare Cards">
-        <p><span id="score">8</span> cards left</p>
-        <p><span id="score">0</span> cards in middle</p>
-        <p><span id="score">8</span> cards left</p>
+        <p class="yourScore"><span id="scoreP1">8</span> cards left</p>
+        <p class="middleScore"><span id="score">0</span> cards in middle</p>
+        <p class="compScore"><span id="scoreP2">8</span> cards left</p>
     </div>
 
     <!--Modal for how to play-->
